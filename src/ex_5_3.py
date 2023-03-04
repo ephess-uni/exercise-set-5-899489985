@@ -6,6 +6,7 @@ This module contains an entry point that:
 - writes the file to the output file argument
 """
 import numpy as np
+import os
 import argparse
 try:
     from src.util import get_repository_root
